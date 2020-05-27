@@ -5,7 +5,7 @@
     else $title = $this->text('regular-translations');
 
 ?><div class="btn-group<?= $this->class ? ' ' . $this->class : '' ?>">
-  <button type="button" class="btn <?= $this->btn_class ? $this->btn_class : 'btn-cyan' ?> dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="<?= $title ?>">
+  <button type="button" class="btn <?= $this->btn_class ? $this->btn_class : 'btn-light-blue' ?> dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="<?= $title ?>">
     <i class="fa fa-globe"></i> <?= $this->no_title ? '' :" $title " ?> <span class="caret"></span>
   </button>
   <ul class="dropdown-menu dropdown-menu-right">

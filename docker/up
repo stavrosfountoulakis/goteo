@@ -1,5 +1,5 @@
 #!/bin/sh
-export UID=`id -u`
+export uid=`id -u`
 
 DOCKER_FILE=
 if [ -f "docker-compose-local.yml" ]; then

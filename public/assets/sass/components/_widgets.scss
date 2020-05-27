@@ -98,7 +98,7 @@
     overflow: hidden;
     position: relative;
     padding-bottom: 20px;
-    background-color: $background-white;
+    background-color: $field-border-blue;
     &.called {
       height: 270px;
     }
@@ -279,13 +279,13 @@
         line-height: 1;
         font-weight: 300;
         color: $color-white;
-        background: $color-cyan;
-        background: radial-gradient(circle at 20% 50%, $color-cyan, lighten($color-cyan, 10%) 60%, lighten($color-cyan, 30%) 90%);
-        box-shadow: 2px 5px 12px -6px darken($color-cyan, 20%);
+        background: $field-border-blue;
+        background: radial-gradient(circle at 20% 50%, $field-border-blue, lighten($field-border-blue, 10%) 60%, lighten($field-border-blue, 30%) 90%);
+        box-shadow: 2px 5px 12px -6px darken($field-border-blue, 20%);
         cursor: pointer;
         &:hover {
-        background: darken($color-cyan, 10%);
-        background: radial-gradient(circle at 20% 50%, darken($color-cyan, 10%), $color-cyan 60%, lighten($color-cyan, 20%) 90%);
+        background: darken($field-border-blue, 10%);
+        background: radial-gradient(circle at 20% 50%, darken($field-border-blue, 10%), $field-border-blue 60%, lighten($field-border-blue, 20%) 90%);
         }
 
         &.flip {
@@ -309,11 +309,11 @@
             font-size: $font-size;
         }
         a {
-            color: $color-cyan;
+            color: $field-border-blue;
         }
     }
     .categories {
-        color: $color-cyan;
+        color: $field-border-blue;
         margin-top: 0.5em;
     }
     .bottom {
@@ -357,11 +357,11 @@
             border-radius: 5px;
             margin-bottom: 5px;
             .progress-bar {
-                background-color: $color-cyan;
+                background-color: $field-border-blue;
             }
         }
         p {
-            color: $color-cyan;
+            color: $field-border-blue;
             text-align: center;
             margin: 0 0 1em 0;
         }

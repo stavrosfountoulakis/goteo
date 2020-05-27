@@ -26,7 +26,7 @@
 
     div.info{
       div.user-label{
-        color: $color-dark-green;
+        color: $background-gold;
         font-size: $font-size*1.2;
         text-transform: uppercase;
         font-weight: bold;
@@ -38,12 +38,13 @@
         margin-bottom: 0;
       }
       div.location{
-        color: $color-dark-green;
+        color: $background-gold;
         font-weight: bold;
         margin-top: 8px;
         .icon{
           font-size:$font-size*1.4;
           vertical-align: sub;
+          color: $background-gold !important;
         }
         .content{
           vertical-align:middle;
@@ -57,7 +58,7 @@
         font-size: $font-size;
       }
       div.worthcracy-label{
-        color: $color-dark-green;
+        color: $background-gold;
         font-size: $font-size*1.1;
         text-transform: uppercase;
         font-weight: bold;
@@ -89,7 +90,7 @@
             margin: 10px 0;
             font-size: $font-size*0.8;
             &.green{
-              color: $color-dark-green;
+              color: $background-gold;
               font-weight:bold;
             }
           }
@@ -107,9 +108,16 @@
         }
       }
     }
-
+    
     div.stats{
-      background-color: $background-light;
+      background: $background-gold-grey;
+      @include background(
+        linear-gradient(
+          to right,
+          $background-gold-grey 28%,
+          $background-gold 100%
+        )
+      );
       border-radius: 10px;
       padding: 0 0 15px 25px;
       width:24%;
@@ -117,7 +125,7 @@
 
       .title{
         font-size: $font-size*1.2;
-        color: $color-dark-green;
+        color: $background-gold;
         font-weight: bold;
         text-transform: uppercase;
         padding-top: 5px;
@@ -130,7 +138,7 @@
             font-size: $font-size*1.5;
           }
           &.projects{
-            color: $color-dark-green;
+            color: $field-border-blue;
             padding-top:5px;
             .item-data{
               font-size: $font-size*2.8;
@@ -147,9 +155,17 @@
 
   .extra-info{
     padding:25px 0;
+    background: $background-gold-grey;
+    @include background(
+      linear-gradient(
+        to right,
+        $background-gold-grey 28%,
+        $background-gold 100%
+      )
+    );
     .label-item{
         font-size: $font-size*1.2;
-        color: $color-dark-green;
+        color: $background-gold;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -161,24 +177,24 @@
         border-radius: 50%;
         width: 65px;
         height: 65px;
-        background-color: $color-dark-green;
+        background-color: $background-gold;
         box-shadow: 1px 3px 5px -3px #4d4d4d;
         float: right;
         .fa-search{
           font-size: $font-size*2.26;
           padding: 13px 16px;
-          color: $background-light;
+          color: $background-gold-light;
         }
         .fa-link{
           font-size: $font-size*2.26;
           padding: 17px 18px;
-          color: $background-light;
+          color: $background-white;
         }
       }
       ul{
         margin-bottom: 0;
         a{
-          color: $primary-color;
+          color: $field-border-blue;
           font-weight: bold;
         }
       }
@@ -190,7 +206,7 @@
           .fa-users{
             font-size: $font-size*2;
             padding: 17px;
-            color: $background-light;
+            color: $background-white;
           }
         }
       .social-content{
@@ -220,7 +236,7 @@
       }
       .title{
           font-size: $font-size*1.2;
-          color: $color-dark-green;
+          color: $field-border-blue;
           font-weight: bold;
           text-transform: uppercase;
           margin-bottom:20px;

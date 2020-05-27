@@ -167,7 +167,7 @@ color:#20B3B2;
 <body>
 
 <?php if ($this->alternate) : ?><div class="header-bar"><span class="header-element"><?= $this->text('mailer-sinoves', $this->raw('alternate')) ?></span></div><?php endif ?>
-<div class="header"><span class="header-element"><img src="<?= $this->get_url() ?>/goteo_logo.png" alt="Logo" /></span></div>
+<div class="header"><span class="header-element"><img src="<?= $this->get_url() ?>/logo.png" alt="Logo" /></span></div>
 
 <div class="content">
 

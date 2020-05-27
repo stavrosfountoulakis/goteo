@@ -19,8 +19,8 @@
 
         <div class="spacer-20 forms">
             <p class="buttons">
-                <button class="show-form btn btn-cyan btn-lg" data-target="#form1"><i class="fa fa-envelope-o"></i> <?= $this->text('user-changeemail-title') ?></button>
-                <button class="show-form btn btn-cyan btn-lg" data-target="#form2"><i class="fa fa-key"></i> <?= $this->text('user-changepass-title') ?></button>
+                <button class="show-form btn btn-light-blue btn-lg" data-target="#form1"><i class="fa fa-envelope-o"></i> <?= $this->text('user-changeemail-title') ?></button>
+                <button class="show-form btn btn-light-blue btn-lg" data-target="#form2"><i class="fa fa-lock"></i> <?= $this->text('user-changepass-title') ?></button>
             </p>
 
             <blockquote id="form1" class="hidden">

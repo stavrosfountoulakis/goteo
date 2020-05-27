@@ -98,7 +98,7 @@ project-remove-translation-confirm: 'Are you sure to remove this translation? Th
 project-removed-translation-ok: 'Translation removed!'
 project-removed-translation-ko: 'Error while removing translation!'
 project-social-commitment-title: 'Social commitment'
-project-create-title: 'The project starts'
+project-create-title: 'Start your project with us...'
 project-create-subtitle-alert: '<strong>WOOOOW!</strong><p>Let’s go further! Now it’s time to sum up the project in a few words</p>'
 project-create-minimum-field: 'Minimum (€)'
 project-create-minimum-calculate-button: 'Counting'

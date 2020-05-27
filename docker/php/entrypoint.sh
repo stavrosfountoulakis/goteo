@@ -4,13 +4,13 @@
 # Either use the UID if passed in at runtime or
 # fallback
 
-USER_ID=${UID:-9999}
+USER_ID=${uid:-9999}
 
 echo "Executing: [$@]"
 if [ "$1" == './docker/php/init.sh' ]; then
     exec "$@"
 else
-    echo "Starting with UID: $USER_ID"
+    echo "Starting with uid: $USER_ID"
     useradd --shell /bin/bash -u $USER_ID -o -c "" -m goteo
     usermod -u $USER_ID goteo
     export HOME=/application

@@ -5,9 +5,9 @@
 /* Nav pills colors */
 
 .nav-pills > li.active > a {
-  background-color: $background-pink;
+  background-color: $field-border-blue;
   &:focus, &:hover {
-    background-color: $background-pink;
+    background-color: $field-border-blue;
   }
 }
 
@@ -364,7 +364,7 @@ div {
     h1 {
       font-size: 36px;
       font-weight: 700;
-      color: #149290;
+      color: $background-gold;
       margin-top: 60px;
     }
   }
@@ -399,7 +399,7 @@ form.create-project-form {
   .bootstrap-datetimepicker-widget {
     table td {
       &.active {
-        background-color: $background-pink !important;
+        background-color: $field-border-blue !important;
       }
       &:hover {
         /*background-color: $background-white;*/
@@ -416,7 +416,7 @@ form.create-project-form {
     background: #FFF !important;
   }
   .bootstrap-datetimepicker-widget table td span.active {
-    background-color: $background-pink !important;
+    background-color: $field-border-blue !important;
   }
   input {
     outline: 0 !important;
@@ -609,7 +609,7 @@ div {
         font-weight: bold;
       }
       &.donor {
-        background-color: $background-pink;
+        background-color: $field-border-blue;
         font-size: 1.2em;
         color: $color-white;
         font-weight: bold;
@@ -617,7 +617,7 @@ div {
     }
   }
   &.stories button.donor {
-    background-color: $background-pink;
+    background-color: $field-border-blue;
     font-size: 1.2em;
     color: $color-white;
     font-weight: bold;
@@ -736,7 +736,7 @@ div {
     div {
       &.title {
         font-size: 2em;
-        color: #218587;
+        color: $field-border-blue;
         font-weight: bold;
       }
       &.description {

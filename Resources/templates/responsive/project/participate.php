@@ -8,7 +8,7 @@
 	<!-- Backers start -->
 	<div class="panel panel-default widget">
 		<div class="panel-heading">
-			<h2 class="panel-title green-title" >
+			<h2 class="panel-title blue-title" >
 				<?= $project->num_investors.' '.$this->text('project-menu-supporters') ?>
 			</h2>
 			<h2 class="panel-title grey-title spacer-10" >
@@ -17,7 +17,7 @@
             <div class="chart-amount"></div>
 
             <a class="accordion-toggle" data-toggle="collapse" data-target="#collapseTwo">
-		        <h2 class="panel-title green-title text-center accordion-title" >
+		        <h2 class="panel-title blue-title text-center accordion-title" >
 		            <?= $this->text('project-show-donors') ?>
 		            <span class="icon glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 		        </h2>
@@ -102,7 +102,7 @@
 	<div class="panel panel-default widget no-padding ">
 		<a class="accordion-toggle" data-toggle="collapse" data-target="#collapseOne">
 			<div class="panel-heading">
-				<h2 class="panel-title green-title normalize-padding">
+				<h2 class="panel-title blue-title normalize-padding">
 					<?= $this->text('project-menu-messages') ?>
 					<span class="icon glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>
 				</h2>

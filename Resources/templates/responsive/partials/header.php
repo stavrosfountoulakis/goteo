@@ -3,9 +3,11 @@
     <div class="navbar-header">
       <?php $this->section('header-navbar-brand') ?>
       <?php if($this->navClass): ?>
-      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/goteo.svg') ?>" class="logo" alt="Goteo"></a>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/ofi.svg') ?>" class="logo" alt="OFI 1925"></a>
+      <?php elseif($this->premium): ?>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/logo-fg-white.png') ?>" class="logo premium" alt="OFI 1925"></a>
       <?php else: ?>
-      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/goteo-white.svg') ?>" class="logo" alt="Goteo"></a>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/ofi.svg') ?>" class="logo" alt="OFI 1925"></a>
       <?php endif ?>
       <?php $this->stop(); ?>
     </div><!--/.navbar-header -->

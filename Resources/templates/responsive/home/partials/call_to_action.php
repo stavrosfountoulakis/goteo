@@ -1,5 +1,5 @@
 <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <div class="section call-action">
     <div class="container">
@@ -26,4 +26,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

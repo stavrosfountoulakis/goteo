@@ -64,7 +64,7 @@ if [ ! -f $GOTEO_CONFIG_FILE ]; then
     exit 1
 fi
 
-USER_ID=${UID:-9999}
+USER_ID=${uid:-9999}
 useradd --shell /bin/bash -u $USER_ID -o -c "" -m goteo
 usermod -u $USER_ID goteo
 export HOME=/application

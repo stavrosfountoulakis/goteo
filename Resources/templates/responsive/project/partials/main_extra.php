@@ -203,7 +203,7 @@ $langs = $project->getLangs();
              <div class="panel panel-default widget rewards rewards-collapsed visible-xs">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseRewards">
                     <div class="panel-heading">
-                        <h2 class="panel-title green-title" >
+                        <h2 class="panel-title blue-title" >
                             <?= $this->text('project-rewards-side-title') ?>
                             <span class="icon glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>
                         </h2>

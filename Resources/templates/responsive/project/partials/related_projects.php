@@ -1,6 +1,6 @@
 <aside class="related-projects">
     <div class="container-fluid">
-		<h2 class="green-title">
+		<h2 class="blue-title">
 		<?= $this->text('project-related') ?>
 		</h2>
 

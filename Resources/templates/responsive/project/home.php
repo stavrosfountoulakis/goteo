@@ -7,7 +7,7 @@
     $bonus_rewards = $this->bonus_rewards;
  ?>
 
-<h2 class="green-title">
+<h2 class="blue-title">
         <?= $this->text('project-about-title') ?>
         </h2>
         <div class="row">
@@ -20,7 +20,7 @@
             <div class="panel panel-default widget">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseOne">
                     <div class="panel-heading standard-padding">
-                        <h2 class="panel-title green-title" >
+                        <h2 class="panel-title blue-title" >
                             <?= $this->text('project-show-needs') ?>
                             <span class="icon glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                         </h2>
@@ -104,7 +104,7 @@
           <div class="panel panel-default widget">
             <a class="accordion-toggle" data-toggle="collapse" data-target="#collapseTwo">
                 <div class="panel-heading standard-padding">
-                    <h2 class="panel-title green-title">
+                    <h2 class="panel-title blue-title">
                         <?= $this->text('project-general-information') ?>
                         <span class="icon glyphicon glyphicon glyphicon-menu-up pull-right" aria-hidden="true"></span>
                     </h2>
@@ -156,7 +156,7 @@
 
                 <!-- About -->
 
-                <h2 class="pink-title " >
+                <h2 class="blue-title " >
                     <span class="anchor-mark" id="about" >
                     <?= $this->text('overview-field-about') ?>
                     </span>
@@ -170,7 +170,7 @@
                     <img src="<?= $image->imageData->getLink(700, 0) ?>" class="spacer-5 img-responsive">
                 <?php endforeach ?>
 
-                <h2 class="pink-title spacer" >
+                <h2 class="blue-title spacer" >
                     <span class="anchor-mark" id="motivation">
                     <?= $this->text('overview-field-motivation') ?>
                     </span>
@@ -185,7 +185,7 @@
                 <?php endforeach ?>
 
                 <?php /* Goal is being deprecated */ if($project->goal): ?>
-                    <h2 class="pink-title spacer" >
+                    <h2 class="blue-title spacer" >
                         <span class="anchor-mark" id="goal">
                         <?= $this->text('overview-field-goal') ?>
                         </span>
@@ -200,7 +200,7 @@
                     <img src="<?= $image->imageData->getLink(700, 0) ?>" class="spacer-5 img-responsive">
                 <?php endforeach ?>
 
-                <h2 class="pink-title spacer-20" >
+                <h2 class="blue-title spacer-20" >
                     <span id="related">
                     <?= $this->text('overview-field-related') ?>
                     </span>
@@ -237,7 +237,7 @@
             <div class="panel panel-default widget">
                 <a class="accordion-toggle" data-toggle="collapse" data-target="#collapse3">
                     <div class="panel-heading">
-                        <h2 class="panel-title green-title" >
+                        <h2 class="panel-title blue-title" >
                             <?= $this->text('project-social-commitment-title') ?>
                             <span class="icon glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>
                         </h2>

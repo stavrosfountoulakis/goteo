@@ -1,6 +1,5 @@
 # Goteo settings file
 ---
-
 # Internal secret for hashes
 secret: --a-very-secret-string---
 
@@ -13,10 +12,10 @@ env: real # set to real to send emails
 # Go with your browser to localhost:8025
 # Any email sent by Goteo will be cached
 debug: true # whether to show trace for errors or not
-            # This is always true for local or beta env
+    # This is always true for local or beta env
 
 # Default system language
-lang: es
+lang: en
 
 # url
 url:
@@ -37,16 +36,18 @@ plugins:
         #liveport: 35729 # Local development only livereload port (optional)
         mocks:
             # ip: 128.101.101.101 (Minnesota)
-            # ip: 147.83.0.1 (Barcelona)
+            ip: 147.83.0.1 (Barcelona)
             # ip: 139.230.131.30 (Perth)
             # ip: 202.21.127.145 (Ulaanbaatar)
+    home-addons:
+        active: true
 
 # Payment methods, must be registered as classes implementing Goteo\Payment\Method\PaymentMethodInterface
 payments:
     # Paypal
     paypal:
         active: true
-        testMode:  true # set to false to real checkouts
+        testMode: true # set to false to real checkouts
         username: paypal@example.com
         password: paypal-password
         signature: PAYPAL-Signature
@@ -61,75 +62,74 @@ payments:
 
 # Database stuff
 db:
-    driver:   mysql     # Database driver (mysql)
-    host:     mariadb # Database host
-    port:     3306      # Database port
-    charset:  utf8mb4     # Database charset
-    database: goteo     # Database schema (database name)
-    username: goteo      # Database user for the goteo database
-    password: goteo      # Password for the goteo database
+    driver: mysql # Database driver (mysql)
+    host: mariadb # Database host
+    port: 3306 # Database port
+    charset: utf8mb4 # Database charset
+    database: goteo # Database schema (database name)
+    username: goteo # Database user for the goteo database
+    password: goteo # Password for the goteo database
 
 # HTML Metas
 meta:
-    title:       "Development Goteo"       # Html default <title>
+    title: "Development Goteo" # Html default <title>
 
 # Mail transport
 # Mail transport
 mail:
     # receiving emails
-    mail:         info@goteo.test     # Main
-    contact:      info@goteo.test     # consulting head
-    manager:      manager@goteo.test  # accounts manager
-    fail:         dev@goteo.test      # dev head
-    log:          sitelog@goteo.test  # Loggin mail
+    mail: info@goteo.test # Main
+    contact: info@goteo.test # consulting head
+    manager: manager@goteo.test # accounts manager
+    fail: dev@goteo.test # dev head
+    log: sitelog@goteo.test # Loggin mail
 
     transport:
-        from:          noreply@goteo.test
-        name:          Goteo Test
-        type:          smtp
+        from: noreply@goteo.test
+        name: Goteo Test
+        type: smtp
 
         # if type is smtp
         smtp:
-            auth:     false
-            secure:   false
-            host:     mailhog
-            port:     1025
+            auth: false
+            secure: false
+            host: mailhog
+            port: 1025
 
 # This will be used for geolocating users, projects, and mail tracking
 geolocation:
     # Maxmind is available thanks to the docker container ant it's shared volume
     maxmind:
-       cities: /usr/share/GeoIP/GeoLite2-City.mmdb
-    google_maps_key: # Google Maps Key
-                     # Ge one here: https://developers.google.com/maps/documentation/javascript/get-api-key
+        cities: /usr/share/GeoIP/GeoLite2-City.mmdb
+    google_maps_key:# Google Maps Key
+        # Ge one here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 # Social Login Services
 # Fill an uncomment the needed one's
 oauth:
     # Credentials app Facebook
     facebook:
-       active: false
-       id:     000000000000000                  #
-       secret: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa #
+        active: false
+        id: 000000000000000 #
+        secret: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa #
 
     # Credentials app Twitter
     twitter:
-       active: false
-       id:      aaaaaaaaaaaaaaaaaaaaaa                     #
-       secret:  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa #
+        active: false
+        id: aaaaaaaaaaaaaaaaaaaaaa #
+        secret: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa #
 
     # Credentials app Linkedin
     linkedin:
-       active: false
-       id:     aaaaaaaaaaaa     #
-       secret: aaaaaaaaaaaaaaaa #
+        active: false
+        id: aaaaaaaaaaaa #
+        secret: aaaaaaaaaaaaaaaa #
 
     # Credentials Google
     google:
-       active: false
-       id: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-       secret: aaaaaaaaaaaaaaaaaa
-
+        active: false
+        id: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        secret: aaaaaaaaaaaaaaaaaa
 
 # Optional analytics ID's
 # Example:

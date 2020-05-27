@@ -318,7 +318,7 @@ class Config {
 			'meta_keywords' => self::get('meta.keywords'),
 			'meta_author' => self::get('meta.author'),
 			'meta_copyright' => self::get('meta.copyright'),
-			'image' => self::get('url.assets') . '/goteo_logo.png',
+			'image' => self::get('url.assets') . '/logo.png',
 		]);
 
 		// TODO: fire event here

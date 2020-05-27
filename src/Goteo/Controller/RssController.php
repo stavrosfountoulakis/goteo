@@ -46,7 +46,7 @@ class RssController extends \Goteo\Core\Controller {
         $feed->setTitle('Goteo RSS');
         $feed->setLink($url);
         $feed->setDescription('Blog Goteo.org rss');
-        $feed->setImage('Goteo RSS', $url, $url . '/goteo_logo.png');
+        $feed->setImage('Goteo RSS', $url, $url . '/logo.png');
         $feed->setDate(date('Y-m-d\TH:i:s').'Z');
         $feed->setChannelElement('language', Lang::getLocale());
         // $feed->setChannelElement('author', 'Goteo');

@@ -48,7 +48,7 @@ $terms=$this->terms;
                             <input tabindex="0" type="text" class="form-control minimum" name="minimum" id="minimum" value="" required>
                         </div>
                         <div class="col-sm-4">
-                            <button id="calculate-invest" type="submit" class="btn btn-block pink"><?= $this->text('project-create-minimum-calculate-button') ?></button>
+                            <button id="calculate-invest" type="submit" class="btn btn-block light-blue"><?= $this->text('project-create-minimum-calculate-button') ?></button>
                         </div>
                         <div class="col-sm-4">
                             <div class="investors spacer-20" id="investors" >
@@ -128,7 +128,7 @@ $terms=$this->terms;
         </div>
         <div class="row">
             <div class="col-md-3 col-md-offset-3 col-sm-6 spacer">
-                <button tabindex="0" id="create-continue" disabled="disabled" type="submit" class="btn btn-block green"><?= $this->text('project-create-save-button') ?></button>
+                <button tabindex="0" id="create-continue" disabled="disabled" type="submit" class="btn btn-block light-blue"><?= $this->text('project-create-save-button') ?></button>
             </div>
         </div>
         <div class="row" id="submit-alert">

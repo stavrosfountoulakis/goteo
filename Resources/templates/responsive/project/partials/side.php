@@ -2,7 +2,7 @@
 
 <div class="hidden-xs">
 
-        <h2 class="green-title">
+        <h2 class="blue-title">
         <?= $this->text('project-rewards-side-title') ?>
         </h2>
 
@@ -45,7 +45,7 @@
         </div>
         <?php endforeach ?>
 
-        <h2 class="green-title spacer">
+        <h2 class="blue-title spacer">
         <?= $this->text('project-menu-messages') ?>
         </h2>
         <div class="small-subtitle">

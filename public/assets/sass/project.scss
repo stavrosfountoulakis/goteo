@@ -252,13 +252,13 @@ div {
       }
       &.reached-label {
         padding-top: 10px;
-        color: #149290;
+        color: $field-border-blue;
         font-size: 14px;
         font-weight: bold;
       }
       &.reached {
         font-size: 48px;
-        color: #149290;
+        color: $field-border-blue;
         font-weight: bold;
         font-size: 48px;
         line-height: 1.1;
@@ -301,7 +301,8 @@ div {
       top: 3px;
     }
     &.active span.heart-icon {
-      color: #149290;
+      // color: #149290;
+      color: $background-gold;
     }
   }
 }
@@ -463,6 +464,12 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
   }
+  &.blue-title {
+    font-size: 18px;
+    color: $field-border-blue;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   &.grey-title {
     font-size: 18px;
     color: $color-dark;
@@ -618,7 +625,7 @@ div {
     }
     .investors {
       text-transform: uppercase;
-      color: #C054BA;
+      color: $field-border-blue;
       font-weight: bold;
       padding: 15px 0;
       div.left {

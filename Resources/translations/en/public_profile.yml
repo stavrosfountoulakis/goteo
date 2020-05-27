@@ -7,7 +7,7 @@ profile-last_worth-title: Date
 profile-location-header: 'My location'
 profile-my_investors-header: 'My co-financiers'
 profile-my_projects-header: 'My projects'
-profile-my_worth-header: 'My flow on Goteo'
+profile-my_worth-header: 'My flow'
 profile-name-header: 'Profile of'
 profile-patron-header: 'Recomends <span class="red">%s projects</span>'
 profile-sharing_interests-header: 'Sharing interests'
@@ -17,7 +17,7 @@ profile-widget-user-header: User
 profile-worth-title: 'Contributed here:'
 profile-worthcracy-title: Position
 profile_patron-invest_on-header: 'I also co-finance'
-profile-stats-title: 'Goteo activity'
+profile-stats-title: 'My activity'
 profile-stats-projects: 'Campaigns'
 profile-stats-invests: 'Donations'
 profile-stats-collaborations: 'Collaborations'

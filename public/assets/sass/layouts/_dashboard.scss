@@ -117,8 +117,10 @@
 
   .nav-tabs {
     li.active > a {
-        background-color: $background-light-body;
-        border-bottom-color: $background-light-body;
+        background-color: $background-gold;
+        // background-color: $background-light-body;
+        border-bottom-color: $background-gold;
+        // border-bottom-color: $background-light-body;
         font-weight: 500;
     }
     &.nav-justified > li {
@@ -385,7 +387,7 @@
       blockquote {
         background: inherit;
         padding: 5px 11px;
-        border-left: 4px solid $color-cyan;
+        border-left: 4px solid $field-border-blue;
         &.lilac {
             border-left-color: $color-lilac;
         }
@@ -521,7 +523,7 @@
     padding: 0;
 
     p {
-      color: $color-cyan;
+      color: $field-border-blue;
       font-weight: bold;
       font-size: $font-size * 3;
     }
@@ -702,7 +704,8 @@
 
 .dashboard-sections {
   // background-color: $background-light-cream;
-  background-color: $background-light;
+  // background-color: $background-light;
+  background-color: $background-gold-light;
   padding: 10px;
   // Do not stack this nav in any screen width
   .nav-tabs.nav-justified > li {
@@ -716,13 +719,13 @@
         color: $color-dark;
         font-weight: 500;
         >i {
-            background-color: $color-grey-cyan;
+            background-color: $field-border-blue-grey;
             margin-bottom: 10px;
         }
         &:hover {
             background-color:inherit;
             >i {
-                background-color:$color-cyan;
+                background-color:$field-border-blue;
             }
         }
         @media(max-width: $breakpoint-sm - 1) {
@@ -740,10 +743,10 @@
       }
   }
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-    background-color:$background-white;
-    box-shadow: 0 1px 3px -2px $color-dark;
+    background-color:$background-light-cream;
+    box-shadow: 0 1px 4px -2px $color-dark;
     >i {
-        background-color: $color-cyan;
+        background-color: $field-border-blue;
     }
   }
 }

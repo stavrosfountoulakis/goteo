@@ -19,7 +19,7 @@ if (!$project->isApproved()){
     } else {
         // Not published yet
         if($project->inReview()) {
-            $status_class = 'lilac';
+            $status_class = 'light-blue';
             $desc = $this->text('form-project_waitfor-review');
             $status_text = $this->text('project-reviewing');
         }

@@ -24,13 +24,16 @@
   &.active{
     color: $color-white;
     .status{
-      background-color: $background-active-green;
+      // background-color: $background-active-green;
+      background-color: $background-gold;
     }
     .sphere{
-      background-color: $background-active-dark-green;
+      // background-color: $background-active-green;
+      background-color: $background-gold;
     }
     .content, .bottom{
-      background-color: $background-active-green !important;
+      // background-color: $background-active-green;
+      background-color: $background-gold !important;
     }
   }
 
@@ -235,7 +238,7 @@
 
     }
     .categories {
-        color: $color-cyan;
+        color: $field-border-blue;
         margin-top: 0.5em;
     }
     .bottom {
@@ -290,17 +293,17 @@
         padding: 0 5%;
         .progress {
             width: 100%;
-            background-color: lighten($color-cyan, 40%);
+            background-color: lighten($field-border-blue, 40%);
             box-shadow: none;
             height: 10px;
             border-radius: 5px;
             margin-bottom: 5px;
             .progress-bar {
-                background-color: $color-cyan;
+                background-color: $field-border-blue !important;
             }
         }
         p {
-            color: $color-cyan;
+            color: $field-border-blue;
             text-align: center;
             margin: 0 0 1em 0;
         }
@@ -647,6 +650,7 @@
         .item-label{
             margin-top: 10px;
             text-transform: uppercase;
+            color: $field-border-blue !important;
         }
     }
 }
